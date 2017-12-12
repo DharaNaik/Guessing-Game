@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+      <link rel="stylesheet" type = "text/css" href="bootstrap.css">
+      <link rel="stylesheet" type = "text/css" href="style.css">
+      
+  </head>
+  <body>
+
+      <div id='app' class="container">
+
+        <div id='headers' class="center">
+          <!-- Title and subtitles! -->
+            <h1> Play the Guessing Game!</h1>
+            <h2> Guess a number between 1 -100 </h2>
+        </div>
+
+        <div id='main' class="center">
+          <div id='input-parent' class="center">
+            <!-- Player's guess input, and submit button -->
+                <input id = "player-input" class="center" name="Guess" maxlength="3" placeholder = "#" autofocus> <br>
+              <button id = "submit"  class="btn btn-success"> GO! </button>
+            </div>
+
+          <div id='guesses center'>
+            <!-- unordered list of guesses -->
+              <ul class='center'>
+                  <li class="guess center"> - </li>
+                  <li class="guess center"> - </li> 
+                  <li class="guess center"> - </li> 
+                  <li class="guess center"> - </li> 
+                  <li class="guess center"> - </li> 
+              </ul>
+          </div>
+
+          <div id="menu-btns center">
+            <!-- reset and hint buttons -->
+              <button id = "reset" class = 'btn btn-info center' type = "button"> Reset </button>
+              <button id = "hint" class="btn btn-warning center" type = "button"> Hint </button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer'>
+        <div class="row">
+          <div class='center col-sm-4'>
+            <img src='fa-logo@2x.png'>
+          </div>
+
+          <div class='center top col-sm-4'>
+            <h4>Project by DHARA NAIK</h4>
+          </div>
+
+          <div class='center col-sm-4'>
+            <img src='grace_hopper_academy.png'>
+          </div>
+        </div>
+
+      </div>    
+
+  </body>
+</html>
